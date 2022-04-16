@@ -1,0 +1,14 @@
+.idcard-container{
+    display: flex ;
+    border: 1px solid black;
+    margin: 10px;
+   
+}
+
+.idcard-details{
+
+}
+
+.idcard-profile-pic{
+    margin: 5px;
+}
