@@ -1,9 +1,10 @@
-.greeting-container{
+.random-item{
     border: 1px solid black;
     margin: 10px 8px;
     padding: 5px; 
     font-size: 16px;
 }
 
-
-
+.random-item p{
+    margin: 0px;
+}

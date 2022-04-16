@@ -1,11 +1,13 @@
 import './App.css';
 import IdCard from './components/IdCard/IdCard';
 import Greetings from './components/Greetings/Greetings';
+import Random from './components/Random/Random';
 
 function App() {
   return (
     <div className="App">
-      <h1>Id Card</h1>
+      {/* Id Card section */}
+      <h1>IdCard</h1>
       <IdCard
         lastName="Doe"
         firstName="John"
@@ -23,9 +25,20 @@ function App() {
         birth={new Date('1988-05-11')}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
+
+      {/* Greetings section */}
       <h1>Greetings</h1>
-      <Greetings lang='de'>Ludwig</Greetings> 
-      <Greetings lang='fr'>François</Greetings> 
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
+
+      {/* Random section */}
+      <h1>Random</h1>
+      <Random min={1} max={6} />
+      <Random min={1} max={100} />
+
+      {/* Box Colour section */}
+      
+
     </div>
   );
 }

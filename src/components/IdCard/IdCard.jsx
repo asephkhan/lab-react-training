@@ -9,11 +9,12 @@ const {firstName, lastName, gender, birth, height, picture} = props;
       <div className="idcard-container">
         <img className='idcard-profile-pic' src={picture} alt="profile-pic" />
         <div className="idcard-details">
-            <strong>First Name: </strong>{firstName}<br />
-            <strong>Last Name :</strong>{lastName}<br />
-            <strong>Gender: </strong>{gender}<br />
-            <strong>Birth: </strong>{birth.toDateString()}<br />
-            <strong>height: </strong>{height}<br />
+            <strong>First name</strong>: {firstName}<br />
+            <strong>Last name</strong>: {lastName}<br />
+            <strong>Gender</strong>: {gender}<br />
+            <strong>Height</strong>: {height}<br />
+            <strong>Birth</strong>: {birth.toDateString()}<br />
+            
         </div>
       </div>
     </>

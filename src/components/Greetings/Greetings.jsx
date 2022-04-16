@@ -8,8 +8,8 @@ function Greetings(props) {
   return (
     <div className="greeting-container">
     
-      {lang === 'de' && <p>Hallo {children} </p>}
-      {lang === 'fr' && <p>Bonjour {children} </p>}
+      {lang === 'de' && <span>Hallo {children}</span> }
+      {lang === 'fr' && <span>Bonjour {children} </span>}
     </div>
   )
 }
