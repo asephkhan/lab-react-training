@@ -1,0 +1,27 @@
+.boxcolor-red{
+    border: 1px solid black;
+    margin: 10px 8px;
+    padding: 20px;
+    background-color: rgb(255,0,0);
+    height : 42px;
+}
+
+.boxcolor-green{
+    border: 1px solid black;
+    margin: 10px 8px;
+    padding: 20px;
+    background-color: rgb(128,255,0);
+    height : 42px;
+}
+
+.boxcolor-red p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.boxcolor-green p{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
