@@ -1,0 +1,13 @@
+.credit-card{
+    margin: 10px;
+    padding: 20px;
+    height : 147px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.credit-card-section{
+    display: flex;
+    flex-direction: row;
+    
+}
